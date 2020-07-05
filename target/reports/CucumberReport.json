@@ -1,0 +1,1120 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3280762700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Adicionando no usuario",
+        "description": "",
+        "id": "add-novo-usuario;adicionando-no-usuario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 614190500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278031200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o usuario esteja na pagina do agapito-server",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioEstejaNaPaginaDoAgapitoServer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92794300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "o usuario clica no menu usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClinaNoMenuUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3423190300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuario clica no botao Novo usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362558300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuario preenche o \"Login\" com o valor de \"Testes Casa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 22
+                },
+                {
+                  "val": "Testes Casa",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102022400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuario preenche o \"Nome Completo\" com o valor de \"Vila Maria\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 22
+                },
+                {
+                  "val": "Vila Maria",
+                  "offset": 53
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133952700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario preenche o \"Email\" com o valor de \"Testebiajames@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 22
+                },
+                {
+                  "val": "Testebiajames@teste.com",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82751000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuario preenche o \"Idade\" com o valor de \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Idade",
+                  "offset": 22
+                },
+                {
+                  "val": "28",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 554311300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27511200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario irá visualizar \"Usuário foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário foi criado com sucesso.",
+                  "offset": 26
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioIráVisualizar(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@beleite"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3275677900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Adicionando no usuario",
+        "description": "",
+        "id": "add-novo-usuario;adicionando-no-usuario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 603555600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1174493900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o usuario esteja na pagina do agapito-server",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioEstejaNaPaginaDoAgapitoServer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75053000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "o usuario clica no menu usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClinaNoMenuUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2772061500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuario clica no botao Novo usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333367900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuario preenche o \"Login\" com o valor de \"Testes ap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 22
+                },
+                {
+                  "val": "Testes ap",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105207300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuario preenche o \"Nome Completo\" com o valor de \"São Paulo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 22
+                },
+                {
+                  "val": "São Paulo",
+                  "offset": 53
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130908800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario preenche o \"Email\" com o valor de \"Testebiajames@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 22
+                },
+                {
+                  "val": "Testebiajames@teste.com",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80073600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuario preenche o \"Idade\" com o valor de \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Idade",
+                  "offset": 22
+                },
+                {
+                  "val": "28",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527880200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26810600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario irá visualizar \"Usuário foi criado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário foi criado com sucesso.",
+                  "offset": 26
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioIráVisualizar(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@beleite"
+          }
+        ]
+      }
+    ],
+    "name": "Add Novo usuario",
+    "description": "",
+    "id": "add-novo-usuario",
+    "keyword": "Feature",
+    "uri": "AddNovouser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@beleite"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3334655500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Consultar o usuario",
+        "description": "",
+        "id": "consultando-usuarios;consultar-o-usuario",
+        "after": [
+          {
+            "result": {
+              "duration": 685770300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1152747100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o usuario esteja na pagina do agapito-server",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioEstejaNaPaginaDoAgapitoServer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86513000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "o usuario clica no menu usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClinaNoMenuUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3716656300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuario clica no botao Novo usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 386937800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuario preenche o \"Login\" com o valor de \"Teste Bia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste Bia",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99420000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuario preenche o \"Nome Completo\" com o valor de \"Teste James\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste James",
+                  "offset": 53
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129158900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario preenche o \"Email\" com o valor de \"Testebiajames@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 22
+                },
+                {
+                  "val": "Testebiajames@teste.com",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90720900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuario preenche o \"Idade\" com o valor de \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Idade",
+                  "offset": 22
+                },
+                {
+                  "val": "28",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566919600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59386600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario retorno para a tela usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioRetornoParaATelaUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2484687700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuario clica no botao mostrar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoMostrar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103586800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuario visualiza o Login com o valor \"Teste Bia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Teste Bia",
+                  "offset": 41
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioVisualizaOComOValor(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Consultando usuarios",
+    "description": "",
+    "id": "consultando-usuarios",
+    "keyword": "Feature",
+    "uri": "ConsultandoUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@beleite"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3010217900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Realizar a deleção de usuário",
+        "description": "",
+        "id": "deletando-usuarios;realizar-a-deleção-de-usuário",
+        "after": [
+          {
+            "result": {
+              "duration": 592521700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1276563600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o usuario esteja na pagina do agapito-server",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioEstejaNaPaginaDoAgapitoServer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67911200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "o usuario clica no menu usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClinaNoMenuUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3202095600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuario clica no botao Novo usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360615200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuario preenche o \"Login\" com o valor de \"Teste Bia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste Bia",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94756600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuario preenche o \"Nome Completo\" com o valor de \"Teste James\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste James",
+                  "offset": 53
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123678000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario preenche o \"Email\" com o valor de \"Testebiajames@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 22
+                },
+                {
+                  "val": "Testebiajames@teste.com",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115164700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuario preenche o \"Idade\" com o valor de \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Idade",
+                  "offset": 22
+                },
+                {
+                  "val": "28",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850139700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69753100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario retorno para a tela usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioRetornoParaATelaUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4221258400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuario clica no botao apagar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoEditarApagar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4623348000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuário confirma deleção",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuárioConfirmaDeleção()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deletando usuarios",
+    "description": "",
+    "id": "deletando-usuarios",
+    "keyword": "Feature",
+    "uri": "DeletandoUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@beleite"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3145269700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Editar usuario",
+        "description": "",
+        "id": "editando-usuarios;editar-usuario",
+        "after": [
+          {
+            "result": {
+              "duration": 598097500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1361304900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "o usuario esteja na pagina do agapito-server",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioEstejaNaPaginaDoAgapitoServer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84826100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "o usuario clica no menu usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClinaNoMenuUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3187129800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "o usuario clica no botao Novo usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoNovoUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 462749600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "o usuario preenche o \"Login\" com o valor de \"Teste Bia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste Bia",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111205600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "o usuario preenche o \"Nome Completo\" com o valor de \"Teste James\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 22
+                },
+                {
+                  "val": "Teste James",
+                  "offset": 53
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134294500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "o usuario preenche o \"Email\" com o valor de \"Testebiajames@teste.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email",
+                  "offset": 22
+                },
+                {
+                  "val": "Testebiajames@teste.com",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75684200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "o usuario preenche o \"Idade\" com o valor de \"28\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Idade",
+                  "offset": 22
+                },
+                {
+                  "val": "28",
+                  "offset": 45
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioPreencheOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512109900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56740200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "o usuario retorno para a tela usuario",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioRetornoParaATelaUsuario()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1434457200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "o usuario clica no botao editar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicaNoBotaoEditar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318091800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "o usuario altera o \"Nome Completo\" com o valor de \"Teste Cookie\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nome Completo",
+                  "offset": 20
+                },
+                {
+                  "val": "Teste Cookie",
+                  "offset": 51
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioAlteraOComOValorDe(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 505014400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "o usuario clicar no botao Salvar",
+            "match": {
+              "location": "AddNovoUserSteps.oUsuarioClicarNoBotaoSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25484200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "o usuario irá visualizar \"Usuário foi atualizado com sucesso.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário foi atualizado com sucesso.",
+                  "offset": 26
+                }
+              ],
+              "location": "AddNovoUserSteps.oUsuarioIráVisualizar(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Editando usuarios",
+    "description": "",
+    "id": "editando-usuarios",
+    "keyword": "Feature",
+    "uri": "EditandoUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@beleite"
+      }
+    ]
+  }
+]
